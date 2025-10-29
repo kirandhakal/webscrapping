@@ -3,7 +3,7 @@ name: Notice Scraper
 on:
   schedule:
     - cron: '15 4 * * *'   # 10:00 AM NPT
-    - cron: '15 7 * * *'   # 1:00  PM NPT
+   
     - cron: '15 11 * * *'  # 5:00  PM NPT
   workflow_dispatch: {}     # manual run button
 
